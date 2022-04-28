@@ -49,13 +49,9 @@ public class Car implements Serializable {
      *
      * @return verdikt
      */
-    private boolean doesMakeExist(String make) {
-        return true;
-        // prostě to nechce fungovat a já už na to nemám ani čas, ani nervy
-        //try (BufferedReader reader = new BufferedReader(new FileReader("MakesDatabase.txt"))) {
-        /*ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+    private boolean doesMakeExist(String make) {     
         try (InputStream in = classLoader.getResourceAsStream("MakesDatabase.txt");
-             BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
             String line;
 
             while ((line = reader.readLine()) != null) {
@@ -68,7 +64,7 @@ public class Car implements Serializable {
             return false;
         }
 
-        return false;*/
+        return false;
     }
 
     public String getMake() {
