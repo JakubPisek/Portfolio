@@ -1,9 +1,6 @@
-# L08E02: Data 4
-V balíčku `data` upravte metody `DataFrame.from_csv()` a `Series.from_csv()` tak, aby namísto textu přijímaly instanci třídy `pathlib.Path` (tedy soubor s příponou `csv`).
+# Python modul pro zpracování csv tabulek
 
-```python
-import pathlib
-from data.dataframe import DataFrame
+Jednoduché extrahování dat z cvs souboru pro další analýzu
 
-df = DataFrame.from_csv(pathlib.Path.cwd() / "input.csv")
-```
+Template:
+![DataFrame template](https://raw.githubusercontent.com/kmi-jp/template-L05E02/main/dataframe.png)
