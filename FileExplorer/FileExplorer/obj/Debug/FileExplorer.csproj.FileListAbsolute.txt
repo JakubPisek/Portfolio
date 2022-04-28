@@ -1,0 +1,17 @@
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.AssemblyReference.cache
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\MainWindow.g.cs
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\App.g.cs
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.cache
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.lref
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\MainWindow.baml
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.g.resources
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.cache
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\InputBox.g.cs
+D:\Documents\University\Visual Studio 2019\Projects\JCS1\FileExplorer\FileExplorer\obj\Debug\InputBox.baml

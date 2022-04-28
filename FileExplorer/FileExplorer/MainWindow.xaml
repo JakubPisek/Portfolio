@@ -1,0 +1,75 @@
+﻿<Window x:Class="FileExplorer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileExplorer"
+        mc:Ignorable="d"
+        Title="File Explorer" 
+        Height="480" Width="720"
+        MinHeight="480" MinWidth="720"
+        ResizeMode="NoResize"
+        >
+
+    <Grid ShowGridLines="False">
+        
+        <!-- /Grid Definitions -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="8.5*" />
+            <RowDefinition Height="0.5*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <!-- Grid Definitions\ -->
+
+        <!-- /Head -->
+        <Button Name ="Back_Button" Content="&lt;" 
+                Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                Height="20" Width="30" MinHeight="20" MinWidth="30" Click="Back_Button_Click" />
+
+        <Button Name ="Forward_Button" Content="&gt;" 
+                Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"
+                Height="20" Width="30" MinHeight="20" MinWidth="30" Click="Forward_Button_Click" />
+
+        <TextBox Name="Path_TextBox" Text="" TextWrapping="Wrap" FontSize="14"
+                 Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Stretch"   
+                 Height="20" MinHeight="20" />
+
+        <Button Name ="Search_Button" Content="SEARCH" 
+                Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"
+                Height="20" Width="65" MinHeight="20" MinWidth="65" Click="Search_Button_Click" />
+        <!-- Head\ -->
+
+        <!-- /Body -->
+        <ListBox Name="Disks_ListBox" SelectionMode="Single" MouseDoubleClick="Disks_ListBox_MouseDoubleClick" 
+                 Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+
+        <ListBox Name="Files_ListBox" SelectionMode="Single" MouseDoubleClick="Files_ListBox_MouseDoubleClick"
+                 Grid.Row="1" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="Files_ListBox_SelectionChanged" >
+            <ListBox.ContextMenu>
+                <ContextMenu Name="RightClickMenu">
+                    <MenuItem Name="Copy" Header="Copy" Click="Copy_Click" />
+                    <MenuItem Name="Paste" Header="Paste" Click="Paste_Click" />
+                    <MenuItem Name="Delete" Header="Delete" Click="Delete_Click"/>
+                    <MenuItem Name="Rename" Header="Rename" Click="Rename_Click" />
+                    <MenuItem Name="Move" Header="Move" Click="Move_Click" />
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+        <!-- Body\ -->
+
+        <!-- /Footer -->
+        <TextBlock Name="ItemsCount_TextBlock" Text="0 items" 
+                   Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+
+        <TextBlock Name="SelectedItem_TextBlock" Text="item selected:"
+                   Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+        <!-- Footer\ -->
+        
+    </Grid>
+</Window>

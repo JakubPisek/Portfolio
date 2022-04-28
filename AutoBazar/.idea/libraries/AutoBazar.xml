@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AutoBazar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/AutoBazar_jar/AutoBazar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
